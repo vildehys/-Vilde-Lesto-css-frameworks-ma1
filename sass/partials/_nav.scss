@@ -1,0 +1,32 @@
+.navbar {
+  background-color: getColour(secondary) !important;
+}
+
+nav {
+  a {
+    color: getColour(drk-grey) !important;
+    text-transform: uppercase;
+  }
+
+  a.active {
+    color: getColour(pink) !important;
+  }
+
+  a.navbar-brand {
+    color: black !important;
+  }
+
+  .navbar-toggler {
+    border-style: none;
+    color: getColour(drk-grey) !important;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+footer {
+  background-color: white !important;
+}

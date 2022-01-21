@@ -1,0 +1,23 @@
+.card {
+  height: 240px;
+  width: 240px;
+  margin: 0 auto 10px;
+  border-radius: 15px;
+  background-color: getColour(secondary);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card3,
+.card8 {
+  background-color: getColour(white);
+  border: 2px solid getColour(pink);
+}
+
+.card6 {
+  background-color: getColour(pink);
+  border: 2px solid getColour(white);
+}
+
+.row {
+  margin-top: 50px;
+}

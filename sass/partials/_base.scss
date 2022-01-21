@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: getColour(primary);
+  margin: 0;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+}
