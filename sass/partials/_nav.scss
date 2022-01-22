@@ -27,6 +27,8 @@ nav {
   }
 }
 
-footer {
-  background-color: white !important;
+@media (min-width: 990px) {
+  .container-fluid {
+    width: 90%;
+  }
 }
