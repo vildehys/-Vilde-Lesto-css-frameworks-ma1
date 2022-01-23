@@ -1,6 +1,6 @@
 .card {
-  height: 240px;
-  width: 240px;
+  height: 278px;
+  width: 278px;
   margin: 0 auto 10px;
   border-radius: 15px;
   background-color: getColour(secondary);
@@ -20,4 +20,11 @@
 
 .row {
   margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+  .card {
+    height: 230px;
+    width: 230px;
+  }
 }

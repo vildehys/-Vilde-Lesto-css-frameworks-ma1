@@ -2,33 +2,31 @@
   background-color: getColour(secondary) !important;
 }
 
-nav {
-  a {
-    color: getColour(drk-grey) !important;
-    text-transform: uppercase;
-  }
-
-  a.active {
-    color: getColour(pink) !important;
-  }
-
-  a.navbar-brand {
-    color: black !important;
-  }
-
-  .navbar-toggler {
-    border-style: none;
-    color: getColour(drk-grey) !important;
-  }
-
-  .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-  }
+a {
+  color: getColour(drk-grey) !important;
+  text-transform: uppercase;
 }
 
-@media (min-width: 990px) {
-  .container-fluid {
-    width: 90%;
+a.active {
+  color: getColour(pink) !important;
+}
+
+a.navbar-brand {
+  color: black !important;
+}
+
+.navbar-toggler {
+  border-style: none;
+  color: getColour(drk-grey) !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (min-width: 992px) {
+  .navbar > * {
+    max-width: 90%;
   }
 }

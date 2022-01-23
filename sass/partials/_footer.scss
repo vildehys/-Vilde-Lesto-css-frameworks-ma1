@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: getColour(grey);
+}
+
+.footer-content {
+  background-color: getColour(white) !important;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
+
+@media (min-width: 992px) {
+  footer div {
+    flex-direction: row;
+  }
+
+  .footer-content {
+    background-color: getColour(secondary) !important;
+  }
+}
